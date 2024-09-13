@@ -1,0 +1,38 @@
+header{
+    padding: 1px 40px;
+    margin: 30px 20px;
+}
+.header-container{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    padding : 0px 0px; 
+    
+}
+.button-bar{
+    display: flex;
+    gap:20px; 
+    cursor: pointer;  
+
+}
+.image-container{
+    width: 400px; 
+    margin-bottom: auto;
+}
+@media (max-width: 768px) {
+    .header-container {
+      width: 100%;
+      margin-top: auto;
+    }
+    .image-container{
+        display: none;
+    }
+}
+p{
+    text-align: justify;
+    margin-bottom: auto;
+}
+h2{
+    font-weight: 700;
+    margin-top: auto;
+}

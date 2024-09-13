@@ -1,0 +1,12 @@
+.common-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    background-color:#00B0FF;
+      width:40%;
+      color: white;
+      margin: auto 10px;
+  }
+  

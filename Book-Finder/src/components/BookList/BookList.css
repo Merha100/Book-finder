@@ -1,0 +1,106 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+   
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .book-list ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .book-list {
+      width: 100%;
+      margin-top: auto;
+    }
+}
+  .book-item {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    position: relative;
+    white-space: wrap; /* Prevents text from wrapping to the next line */
+   max-width: 100%;
+    
+    
+  }
+  .small-title {
+    font-size: 14px; /* Adjust the size as needed */
+  }
+  .book-author {
+    font-size: 12px;
+    text-align: center;
+    margin-top:auto
+  }
+  
+  .book-item img {
+    max-width: 100px;
+    width: 50%;
+    height:150px ;
+  }
+  .book-list h1{
+    margin-left: 30px;
+    color: #0056b3;
+  }
+ 
+
+  .edit-button {
+    position: relative;
+    left:0;
+  
+    }
+    .delete-button{
+      position: relative;
+      bottom:0;
+      margin-right: auto;
+    
+    }
+    
+.edit-button :hover {
+  background-color: #0056b3;
+}
+.delete-button :hover{
+  background-color: #0056b3;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px; /* Pushes buttons to the bottom */
+  
+}
+.view-more-button, .view-less-button{
+  
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  background-color: #7f8489;
+    width:100%;
+    color: white;
+    margin: auto 30px;
+}
+.view-more-button :hover{
+  background-color: #0056b3;
+}
+.view-buttons{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+
+

@@ -1,0 +1,21 @@
+/*.bookSearch{
+   display: flex;
+   justify-content: center;
+   margin-top: 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+  }
+  */
+  .search-bar {
+    width: 80%; /* Adjust this value to make the search bar longer or shorter */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  
+  
+  

@@ -32,4 +32,4 @@ d. run backend server
 b.install frontend dependencies  : npm install
 c. Start the fron end server
 
-*** you can check the deployed website from netlify : https://openlibrary.org/works/OL45804W/editions.json
+*** you can check the deployed website from netlify : https://splendorous-kataifi-13be94.netlify.app/
